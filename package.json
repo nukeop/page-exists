@@ -1,0 +1,34 @@
+{
+  "name": "page-exists",
+  "version": "1.0.0",
+  "description": "Check if a page can be accessed or returns an error code",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo --space 2 && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nukeop/page-exists.git"
+  },
+  "keywords": [
+    "page",
+    "check",
+    "www",
+    "404"
+  ],
+  "author": "nukeop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nukeop/page-exists/issues"
+  },
+  "homepage": "https://github.com/nukeop/page-exists#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "unique-string": "^1.0.0",
+    "xo": "^0.21.1"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "lodash.zip": "^4.2.0"
+  }
+}
